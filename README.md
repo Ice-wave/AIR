@@ -13,7 +13,7 @@
   </tr>
 </table>
 
-> 🎯 This repository contains the official implementation of “Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification, CVPR 2026”, a training-free decoding intervention that reduces object hallucinations in large vision-language models (LVLMs).
+> 🎯 This repository contains the official implementation of paper “Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification” in CVPR 2026, a training-free decoding intervention that reduces object hallucinations in large vision-language models.
 
 AIR operates along two complementary dimensions:
 

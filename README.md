@@ -1,9 +1,17 @@
 # Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification (CVPR 2026 Findings Track)
 
-<p align="center">
-  <img src="intro-refine.png" width="500" alt="AIR overview">
-</p>
-
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="intro-refine.png" width="100%" alt="AIR overview">
+      <br>
+    </td>
+    <td align="center" width="50%">
+      <img src="TAI.png" width="70%" alt="TAI analysis">
+      <br>
+    </td>
+  </tr>
+</table>
 
 > 🎯 Official implementation of **AIR** (*Attention Imbalance Rectification*), a training-free decoding intervention designed to mitigate object hallucinations in large vision-language models (LVLMs).
 

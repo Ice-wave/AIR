@@ -1,5 +1,7 @@
 # Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification (CVPR 2026 Findings Track)
 
+<img src='intro-refine.png' width=600>
+
 Official implementation of **AIR** (Attention Imbalance Rectification), a training-free decoding intervention designed to mitigate object hallucinations in large vision-language models (LVLMs). AIR operates along two complementary dimensions: (1) **Modality-Balanced Attention Reallocation**, which redistributes attention to reduce excessive imbalance between visual and textual modalities; and (2) **Variance-Constrained Projection Regularization**, which constrains the variance of the attention matrix to promote more stable and uniform attention distributions. **AIR*** further improves both inter-head balance and inter-modal balance.
 
 ```
@@ -28,7 +30,7 @@ AIR/
 | HALC          | 51.4             | 13.1             | 37.4            | 12.1            | 48.0                | 15.3                | 47.2          | 14.5          |
 | OPERA         | 44.1             | 12.8             | 37.3            | 13.5            | 48.2                | 14.3                | 38.2          | 14.2          |
 | AD-HH         | 35.2             | 8.8              | 32.8            | 11.5            | 36.0                | 10.3                | 36.9          | 13.7          |
-| *AIR* (Ours)* | **21.6**         | **7.9**          | **16.0**        | **8.2**         | **22.6**            | **7.9**             | **22.7**      | **8.5**       |
+| **AIR*** | **21.6**         | **7.9**          | **16.0**        | **8.2**         | **22.6**            | **7.9**             | **22.7**      | **8.5**       |
 
 
 ### Max New Tokens: 64
@@ -43,7 +45,7 @@ AIR/
 | HALC          | 21.2             | 6.6              | 24.2            | 9.7             | 24.2                | 14.1                | 14.4          | 7.8           |
 | OPERA         | 17.8             | 6.5              | 26.6            | 10.4            | 18.4                | 8.7                 | 14.6          | 7.4           |
 | AD-HH         | 15.6             | 5.7              | 22.0            | 8.5             | 19.6                | 8.5                 | 13.8          | 7.0           |
-| *AIR* (Ours)* | **12.0**         | **4.1**          | **13.9**        | **6.0**         | **13.2**            | **6.5**             | **10.5**      | **5.6**       |
+| **AIR*** | **12.0**         | **4.1**          | **13.9**        | **6.0**         | **13.2**            | **6.5**             | **10.5**      | **5.6**       |
 
 
 ## Setup

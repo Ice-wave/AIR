@@ -1,0 +1,9 @@
+# Separate env for newer_models/ (Llama 3.2 / Chameleon head pruning).
+# From repo root:  cd newer_models && pip install -r requirements.txt
+transformers==4.45.2
+torch
+torchvision
+accelerate
+pycocotools
+tqdm
+pillow

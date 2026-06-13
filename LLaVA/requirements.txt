@@ -1,0 +1,4 @@
+# AIR / LLaVA eval environment (Python >=3.8, CUDA GPU recommended).
+# From repo root:  cd LLaVA && pip install -r requirements.txt
+# Versions are defined in pyproject.toml; this file installs the package + eval extras.
+-e ".[eval]"

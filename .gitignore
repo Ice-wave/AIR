@@ -1,0 +1,36 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.out
+
+# Data & outputs (keep local copies; do not commit large eval data)
+dataset/
+LLaVA/results/
+checkpoints
+ckpts*
+output
+wandb
+
+# Editor
+.vscode/
+.idea
+*.swp
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+newer_models/results/*

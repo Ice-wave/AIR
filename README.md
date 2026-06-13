@@ -1,8 +1,21 @@
 # Mitigating Object Hallucination in LVLMs via Attention Imbalance Rectification (CVPR 2026 Findings Track)
 
-<img src='intro-refine.png' width=800>
+<p align="center">
+  <img src="intro-refine.png" width="500" alt="AIR overview">
+</p>
 
-Official implementation of **AIR** (Attention Imbalance Rectification), a training-free decoding intervention designed to mitigate object hallucinations in large vision-language models (LVLMs). AIR operates along two complementary dimensions: (1) **Modality-Balanced Attention Reallocation**, which redistributes attention to reduce excessive imbalance between visual and textual modalities; and (2) **Variance-Constrained Projection Regularization**, which constrains the variance of the attention matrix to promote more stable and uniform attention distributions. **AIR*** further improves both inter-head balance and inter-modal balance.
+
+> 🎯 Official implementation of **AIR** (*Attention Imbalance Rectification*), a training-free decoding intervention designed to mitigate object hallucinations in large vision-language models (LVLMs).
+
+AIR operates along two complementary dimensions:
+
+- 👁️ **Modality-Balanced Attention Reallocation**  
+  Redistributes attention to reduce excessive imbalance between visual and textual modalities.
+
+- 📐 **Variance-Constrained Projection Regularization**  
+  Constrains the variance of the attention matrix to promote more stable and uniform attention distributions.
+
+✨ **AIR\*** further improves both **inter-head balance** and **inter-modal balance**.
 
 ```
 AIR/
